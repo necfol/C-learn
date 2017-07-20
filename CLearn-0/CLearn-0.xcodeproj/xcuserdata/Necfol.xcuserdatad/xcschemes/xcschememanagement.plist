@@ -9,10 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CLearn-1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>point.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>F11DD2281F1FA32D00E31B77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F11DD2361F20A36A00E31B77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F11DD2411F20A39500E31B77</key>
 		<dict>
 			<key>primary</key>
 			<true/>
