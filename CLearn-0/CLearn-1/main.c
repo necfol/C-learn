@@ -25,14 +25,19 @@
 
 #include <stdio.h>
 
-void test(void) {
-    char str[] = "ceshicyuyan";
-    for (int i = 0; str[i] != '\0'; i++) {
-        printf("str[%d] = %c\n", i, *(str + i));
-    }
-}
+//void test(void) {
+//    char str[] = "ceshicyuyan";
+//    for (int i = 0; str[i] != '\0'; i++) {
+//        printf("str[%d] = %c\n", i, *(str + i));
+//    }
+//}
 
+char * test() {
+    return "我是Necfol\n";
+}
 int main(int argc, const char * argv[]) {
-    test();
+    int a[] = {1,2};
+    
+    printf("%s", test());
     return 0;
 }
