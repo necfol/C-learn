@@ -32,12 +32,23 @@
 //    }
 //}
 
-char * test() {
-    return "我是Necfol\n";
+//char * test() {
+//    return "我是Necfol\n";
+//}
+void test() {
+    typedef struct Point {
+        float x;
+        float y;
+    } * P;
+    struct Point PP = {10, 10};
+    P ppp = &PP;
+    printf("x=%f,y=%f\n", ppp->x, ppp->y);
+    
+    
 }
 int main(int argc, const char * argv[]) {
-    int a[] = {1,2};
-    
-    printf("%s", test());
+    //int a[] = {1,2};
+    test();
+    //printf("%s", test());
     return 0;
 }
